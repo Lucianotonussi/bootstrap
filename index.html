@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Componentes de Bootstrap-4 con Luciano Tonussi</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" , user-scalable="no" />
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!--Nav-Bar-->
+        <div class="row">
+            <header class="col-md-8 mt-3">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">L.T.</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Project Beta</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Lenguajes
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Front-End</a></li>
+                                        <li><a class="dropdown-item" href="#">Back-End</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Full Stack</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                            <ul class="navbar-nav mr-auto"></ul>
+                            
+
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+        </div>
+        <!-- Fin Nav-Bar-->
+
+
+
+        <!--Barra inicio-->
+        <div class="row">
+            <div class="col-md-8 mt-3">
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrum-item">
+                            <a href="#">Proyectos solidarios</a>
+                        </li>
+                        <li class="breadcrum-item">
+                            <a href="#">Proyectos empresariales</a>
+                        </li>
+                        <li class="breadcrum-item">
+                            <a href="#">Proyectos estatales</a>
+                        </li>
+                        <li class="breadcrum-item">
+                            <a href="#">Sobre mi</a>
+                        </li>
+                    </ol>
+                </nav>
+                <!--Fin Barra inicio-->
+                <!--slider v2
+                La velocidad del slider está definida al final del documento-->
+
+                <div id="slider2" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#slider2" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#slider2" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#slider2" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/originals/95/e0/00/95e000d27e3395fb41a48dfbaca6b14e.jpg"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bosque Encantado - Buenos Aires</h5>
+                                <p>Camping ideal para disfrutar de tus vacaciones</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://mott.pe/noticias/wp-content/uploads/2018/11/las-mejores-apps-para-tomar-fotos-de-paisajes-de-paga-y-gratis.png"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Tromsø - Noruega</h5>
+                                <p>Si te gusta la nieve, debes conocer Tromsø</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://image.winudf.com/v2/image/Y29tLmVtZXJpdGFhcHBzLmltYWdlbmVzZ3JhdGlzcGFyYW1pY2VsdWxhcmRlcGFpc2FqZXNuYXR1cmFsZXNfc2NyZWVuXzBfMTUzMDA3NjEwMF8wMTI/screen-0.jpg?fakeurl=1&type=.jpg"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Dublin - Irlanda</h5>
+                                <p>Las mejores praderas y acantilados para el atardecer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slider2" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slider2" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Termina slider v2-->
+
+   
+
+         <!-- Modal / Newsletter -->
+        <div class="alert">
+            
+            <h3>Suscríbete al newsletter para recibir más información</h3>
+            <button type="button" class="newsletter btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">NEWSLETTER</button>
+         </div>
+        <div class="col-md-4">
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Suscríbete al Newsletter!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Énterate de todas las últimas noticias de Bootstrap y CSS
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK!</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Plantilla-->
+        <div class="row col-md-8">
+            <div class="card col p-0 mr-3">
+                <img class="card-img-top img-fluid" src="https://eacnur.org/blog/wp-content/uploads/2017/12/formas-de-ayuda-solidaria.jpg" />
+                <div class="card-body">
+                    <h3 class="card-title">Proyectos Solidarios</h3>
+                    <p class="card-text">
+                        Aquí te enterarás de todos nuestros proyectos solidarios actualizados
+                    </p>
+                    <a href="#" class="btn btn-warning">Entrar</a>
+                </div>
+            </div>
+            <div class="card col p-0 mr-3">
+                <img class="card-img-top img-fluid" src="https://blogs.funiber.org/wp-content/uploads/2019/04/funiber-proyectos-metodologia.jpg" />
+                <div class="card-body">
+                    <h3 class="card-title">Proyectos Empresariales</h3>
+                    <p class="card-text">
+                        Súmate al equipo para continuar el desarrollo expansivo empresarial
+                    </p>
+                    <a href="#" class="btn btn-info">Entrar</a>
+                </div>
+            </div>
+            <div class="card col p-0 mr-3">
+                <img class="card-img-top img-fluid" src="https://www.diariohispaniola.com/fotos/1/be447b50-palacio-nacional_thumb_620.jpg" />
+                <div class="card-body">
+                    <h3 class="card-title">Proyectos Estatales</h3>
+                    <p class="card-text">
+                        Conoce los proyectos gubernamentales en construcción
+                    </p>
+                    <a href="#" class="btn btn-dark">Entrar</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Luciano Tonussi Web &copy;
+        </footer>
+
+
+    </div>
+    <script type="text/javascript" src="jQuery/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".carousel").carousel({
+                interval: 2500
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

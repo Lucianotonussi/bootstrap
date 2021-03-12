@@ -1,0 +1,54 @@
+/*Ojo que he modificado este archivo para que solo sirva con componentes.html
+
+*/
+
+/* Nav Bar */
+
+.container{
+    width: 100%;
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+
+/*Fin nav bar*/
+
+
+/*Barra inicio-->*/
+
+.breadcrumb li a{
+    height: 100%;
+    padding: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(46, 4, 4);
+}
+
+.breadcrumb li a:hover{
+    background: lightblue;
+    color: rgba(87, 70, 68, 1);
+    text-shadow: -1px -1px 0px black;
+}
+
+/*fin barra inicio*/
+
+
+.newsletter {
+    margin-left: 26%;
+    margin-top: 10px;
+}
+
+.newsletter:hover{
+    background: rgb(168, 168, 79);
+    color: rgb(36, 52, 80);
+}
+
+
+
+
+footer{
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
