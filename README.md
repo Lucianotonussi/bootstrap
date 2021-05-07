@@ -1,2 +1,26 @@
-# bootstrap
-Web desarrollada con Bootstrap 4
+Developed with Bootstrap and jQuery
+
+HTML:
+
+* VIEWPORT
+* BOOTSTRAP
+* HEADER
+* NAV
+* BUTTON
+* FROM
+* IMG
+* SLIDER
+* NEWSLETTER
+* CARD
+* FOOTER
+* JQUERY
+
+CSS:
+
+* HOVER
+
+
+IMPORT:
+
+JQUERY
+BOOTSTRAP
